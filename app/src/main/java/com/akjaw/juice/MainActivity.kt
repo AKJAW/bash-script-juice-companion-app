@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        flavor_text.text = "${BuildConfig.FLAVOR_flavor} ${BuildConfig.FLAVOR_api}"
+        flavor_text.text = BuildConfig.FLAVOR_flavor
+        api_text.text = BuildConfig.FLAVOR_api
     }
 }

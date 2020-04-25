@@ -18,8 +18,6 @@
 declare -a appMap=(
     "ap=apple"
     "or=orange"
-    "gr=grape"
-    "gu=guava"
     "acl=appleCarrotLime"
 )
 
