@@ -1,4 +1,4 @@
-This is a companion project to one of my [blog posts](akjaw.com/blog/using_bash_to_build_and_install_android_flavors).
+This is a companion project to one of my [blog posts](https://akjaw.com/blog/using_bash_to_build_and_install_android_flavors).
 Basically this app has 6 different flavors, and the [adb_install.sh](https://github.com/AKJAW/bash-script-juice-companion-app/blob/master/adb_install.sh)
 is used for a more streamlined installation process. The blog post dives
 into a lot more details about the specifics of the script and this project.
