@@ -9,10 +9,10 @@
 
 #example use cases:
 #./adb_install.sh -h -> Shows help screen
-#./adb_install.sh -a gls -> Installs Production Goal Livescores
-#./adb_install.sh -a gls -o -> Installs Production Goal Livescores and opens it
-#./adb_install.sh -a goal -m -> Installs Mock Goal News
-#./adb_install.sh -a goal -m -b -> Builds the mock version then installs it
+#./adb_install.sh -a ap -> Installs Production Apple flavor
+#./adb_install.sh -a ap -o -> Installs Productio Apple flavor and opens it
+#./adb_install.sh -a acl -m -> Installs Mock AppleCarrotLime flavor
+#./adb_install.sh -a acl -m -b -> Builds the mock version then installs it
 #./adb_install.sh -> Asks for a correct app name and then installs the production version
 
 declare -a appMap=(
